@@ -1,0 +1,31 @@
+body {
+    padding: 100px;
+}
+
+.awesome-checkbox {
+    background: url(../img/checkbox.png) no-repeat left bottom;
+    width: 18px;
+    height: 18px;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    opacity: .7;
+    -webkit-transition: .2s background-position ease-in;
+    -moz-transition: .2s background-position ease-in;
+    transition: .2s background-position ease-in;
+}
+
+.awesome-checkbox:hover {
+    opacity: 1;
+}
+
+.awesome-checkbox.selected {
+    background-position: left top;
+    -webkit-transition: .2s background-position ease-in;
+    -moz-transition: .2s background-position ease-in;
+    transition: .2s background-position ease-in;
+}
+
+.awesome-checkbox input {
+    display: none;
+}
