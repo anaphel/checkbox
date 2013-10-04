@@ -12,6 +12,8 @@ body {
     opacity: .7;
     -webkit-transition: .2s background-position ease-in;
     -moz-transition: .2s background-position ease-in;
+    -o-transition: .2s background-position ease-in;
+    -ms-transition: .2s background-position ease-in;
     transition: .2s background-position ease-in;
 }
 
@@ -21,9 +23,6 @@ body {
 
 .awesome-checkbox.selected {
     background-position: left top;
-    -webkit-transition: .2s background-position ease-in;
-    -moz-transition: .2s background-position ease-in;
-    transition: .2s background-position ease-in;
 }
 
 .awesome-checkbox input {
